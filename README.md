@@ -1,4 +1,4 @@
-# Azure で Wordpress 構築ハンズオン
+# Azure で Wordpress 構築ハンズオンラボ
 
 ## 概要
 このコンテンツは Microsoft Azure の Platform as a Service (PaaS) を使用してオープンソースの Wordpress を構築するための手順について記載したものです。
