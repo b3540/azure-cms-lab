@@ -2,6 +2,7 @@
 
 ## 概要
 この演習では、Azure ポータルで必要なサービス [Azure Database for MySQL](https://azure.microsoft.com/ja-jp/services/mysql/) を作成して必要な設定を行います。
+
 [前の演習　Excercise.1 Azure App Service を作成する](./Excercise1-CreateServices.md)
 
 ## 前提条件
@@ -72,6 +73,7 @@
 
 ![Ex2-12](./Picture/Ex2-12.png)
 ![Ex2-7](./Picture/Ex2-7.png)
+
 | 項目 | 値 |
 |:-----|:---|
 | サーバー名 | _作成時に指定したサーバー名_.mysql.database.azure.com |
@@ -119,9 +121,10 @@
 
 おつかれさまでした。以上で _Exercise.2_ は完了となります。
 
-[次の演習　Excercise.3 DB を作成する](./Excercise2-CreateDB.md)
+[次の演習　Excercise.3 Wordpress を設定する](./Excercise3-SetUpWP.md)
 
 ## 参考資料 
+
 [Azure Database for MySQL](https://azure.microsoft.com/ja-jp/services/mysql/)
 
 [最初の MySQL アカウントのセキュリティー設定](https://dev.mysql.com/doc/refman/5.6/ja/default-privileges.html)
