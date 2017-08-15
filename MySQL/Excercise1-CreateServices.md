@@ -1,8 +1,7 @@
-# Excersise.1 App Service を作成する
+# Excersise.1 Azure App Service を作成する
 
 ## 概要
-この演習では、Azure ポータルで必要なサービス [Azure App Services](https://azure.microsoft.com/ja-jp/services/app-service/) 及び [Azure Database for MySQL](https://azure.microsoft.com/ja-jp/services/mysql/) を作成します。
-詳細については、各フォルダの下の Excercise1-CreateServices.md ファイルを参照してください。
+この演習では、Azure ポータルで必要なサービス [Azure Database for MySQL](https://azure.microsoft.com/ja-jp/services/mysql/) を作成します。
 
 ## 前提条件
 この演習を完了するためには、以下のソフトウェア（もしくは互換機能のあるツール）が必要です。
@@ -54,8 +53,13 @@
 ![Ex1-4](./Picture/Ex1-4.png)
 
 
+- しばらく（数分～数十分）待ってから、右上の通知の欄で、_デプロイメントが成功しました_ と表示されているのを確認します。
 
+![Ex1-5](./Picture/Ex1-5.png)
 
+おつかれさまでした。以上で _Exercise.1_ は完了となります。
+
+[次の演習　Excercise.2 DB を作成する](./Excercise2-CreateDB.md)
 
 ## 参考資料 
 [Azure Marketplace から Web アプリを作成する](https://docs.microsoft.com/ja-jp/azure/app-service-web/app-service-web-create-web-app-from-marketplace)

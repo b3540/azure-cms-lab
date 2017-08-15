@@ -1,7 +1,7 @@
-# Azure で Wordpress 構築ハンズオンラボ
+# Azure で CMS 構築ハンズオンラボ
 
 ## 概要
-このコンテンツは Microsoft Azure の Platform as a Service (PaaS) を使用してオープンソースの Wordpress を構築するための手順について記載したものです。
+このコンテンツは Microsoft Azure の Platform as a Service (PaaS) を使用してオープンソースの CMS を構築するための手順について記載したものです。
 お手元の環境に合わせて適時タスクやステップをカスタマイズして実施してください。
 
 ## 対象ユーザー
@@ -12,17 +12,18 @@
 ## 前提条件
 この演習を完了するためには、以下のソフトウェア（もしくは互換機能のあるツール）が必要です。
 
+### Azure Database for MySQL を使用する場合
+* [最新の MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
+* [WordPress](https://wordpress.org/download/)
+
 ### Azure Database for PostgreSQL を使用する場合
 * [最新の pgAdmin](https://www.pgadmin.org/download/)
 
-### Azure Database for MySQL を使用する場合
-* [最新の MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
-
 ### 共通で必要なもの
-* [WordPress](https://wordpress.org/download/)
 * Microsoft Azure にインスタンス作成可能なサブスクリプション及びユーザーアカウント。
 * Web ブラウザ
 * [Cyberduck](https://cyberduck.io/)
+* [Azure Cloud Shell](https://docs.microsoft.com/ja-jp/azure/cloud-shell/overview)
 
 ### 本手順の動作確認モジュールバージョン
 * Windows 10 build 15063
@@ -31,6 +32,9 @@
 * [MySQL Workbench 6.3.9 build 10690321](https://dev.mysql.com/downloads/workbench/)
 * [WordPress 4.8.1](https://wordpress.org/download/)
 * [Cyberduck Version 6.1.0 25371](https://cyberduck.io/)
+
+## MySQL 編
+[Excercise.1 Azure App Service を作成する](./Excercise1-CreateServices.md)
 
 __Microsoft Azure が利用可能で、インスタンス作成できることが前提となります。__
 __本情報の内容（添付文書、リンク先などを含む）は、作成日時点でのものであり、予告なく変更される場合があります。__
