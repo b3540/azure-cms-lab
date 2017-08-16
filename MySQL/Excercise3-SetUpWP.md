@@ -109,7 +109,7 @@ define('NONCE_SALT',       'Un1QuePhr@se8');
 ```
 
 - ブラウザで、_Excercise.1_ で作成した__App Service__のURLにアクセスします。
-　下記のような画面が表示されたら完成です。
+　下記のような画面が表示されたら任意の情報で初期設定を行います。
 ![Ex3-7](./Picture/Ex3-7.png)
 
 おつかれさまでした。以上で _Excercise.3_ は完了となります。
