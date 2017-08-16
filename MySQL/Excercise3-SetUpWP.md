@@ -7,9 +7,6 @@
 ## 前提条件
 この演習を完了するためには、以下のソフトウェア（もしくは互換機能のあるツール）が必要です。
 
-## 前提条件
-この演習を完了するためには、以下のソフトウェア（もしくは互換機能のあるツール）が必要です。
-
 * [最新の MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
 * [WordPress](https://wordpress.org/download/)
 * Microsoft Azure にインスタンス作成可能なサブスクリプション及びユーザーアカウント。
