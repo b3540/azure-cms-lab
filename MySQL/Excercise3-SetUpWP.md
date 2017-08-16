@@ -17,7 +17,6 @@
 ### 本手順の動作確認モジュールバージョン
 * Windows 10 build 15063
 * Google Chrome Version 60.0.3112.90 (Official Build) (64-bit)
-* [pgAdmin 4 v1.6](https://www.postgresql.org/ftp/pgadmin/pgadmin4/v1.6/windows/)
 * [MySQL Workbench 6.3.9 build 10690321](https://dev.mysql.com/downloads/workbench/)
 * [WordPress 4.8.1](https://wordpress.org/download/)
 * [Cyberduck Version 6.1.0 25371](https://cyberduck.io/)
