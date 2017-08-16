@@ -3,7 +3,7 @@
 ## 概要
 この演習では、Azure ポータルで必要なサービス [Azure Web App](https://azure.microsoft.com/ja-jp/services/app-service/web/) を作成します。
 
-[ラボ概要](../README.md)
+[ラボ概要はこちら](../README.md)
 
 ## 前提条件
 この演習を完了するためには、以下のソフトウェア（もしくは互換機能のあるツール）が必要です。

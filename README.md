@@ -29,11 +29,12 @@
 
 ## ハンズオンマニュアル
 [Excercise.1 Azure App Service を作成する](./Excercise1-CreateServices.md)
+
 [Excercise.2 DB を作成する](./Excercise2-CreateDB.md)
+
 [Excercise.3 Wordpress を設定する](./Excercise3-SetUpWP.md)
 
 
-
-
 __Microsoft Azure が利用可能で、インスタンス作成できることが前提となります。__
+
 __本情報の内容（添付文書、リンク先などを含む）は、作成日時点でのものであり、予告なく変更される場合があります。__
