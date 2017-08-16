@@ -8,10 +8,7 @@
 ## 前提条件
 この演習を完了するためには、以下のソフトウェア（もしくは互換機能のあるツール）が必要です。
 
-### Azure Database for MySQL を使用する場合
 * [最新の MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
-
-### 共通で必要なもの
 * [WordPress](https://wordpress.org/download/)
 * Microsoft Azure にインスタンス作成可能なサブスクリプション及びユーザーアカウント。
 * Web ブラウザ
@@ -52,6 +49,7 @@
 ![Ex2-2](./Picture/Ex2-2.png)
 
 - しばらく（数分～数十分）待ってから、右上の通知の欄で、_デプロイメントが成功しました_ と表示されているのを確認します。
+
 ![Ex2-3](./Picture/Ex2-3.png)
 
 
@@ -69,10 +67,17 @@
 
 ![Ex2-11](./Picture/Ex2-11.png)
 
+__注：執筆時点では Azure Database for MySQL はプレビューサービスです。Azure App Service で使用するすべてのIPアドレスを登録することができないため便宜上ファイアウォールを無効にしています。__
+
+- __ファイアウォール規則__ に __任意の規則名__、 __開始IP__0.0.0.0、__終了IP__255.255.255.255 を入れたのち、__保存__をクリックします。
+- __SSL 設定__ の__SSL 接続を強制する__を__無効__ にチェックをいれます。
+![Ex2-22](./Picture/Ex2-22.png)
+<!-- 
 - 上のメニューの __+自分の IP を追加__ をクリックしたのち __保存__ をクリックします。
 
 ![Ex2-12](./Picture/Ex2-12.png)
-![Ex2-7](./Picture/Ex2-7.png)
+![Ex2-7](./Picture/Ex2-7.png) -->
+
 
 | 項目 | 値 |
 |:-----|:---|
@@ -95,7 +100,21 @@
 
 ![Ex2-14](./Picture/Ex2-14.png)
 
-## Task.2+ MySQL に Azure Cloud Shell でアクセスする
+- 接続できたら、画面右上の![Ex2-19](./Picture/Ex2-19.png)をクリックし、下記の例のようにスキーマを作成します。
+
+| 項目 | 内容 |値の例|
+|:-----|:---|:---|
+| Name | スキーマ名 | wordpress |
+| Collation | 参照順序 | utf8-utf8_general_ci |
+
+![Ex2-18](./Picture/Ex2-18.png)
+
+![Ex2-20](./Picture/Ex2-20.png)
+
+![Ex2-21](./Picture/Ex2-21.png)
+
+
+## Task.2+ MySQL に Azure Cloud Shell でアクセスする(Task.2 の別のやり方)
 
 - Azure ポータル 右上の ![Ex2-4](./Picture/Ex2-4.png) をクリックし、Azure Cloud Shell を起動します。
 
@@ -103,7 +122,7 @@
     mysql -h データーベースサーバー名.mysql.database.azure.com -u 管理ユーザー名@データーベースサーバー名 -p
 ```
 
-下記ようなのエラーが表示されるのを確認します。
+<!-- 下記ようなのエラーが表示されるのを確認します。
 
 ![Ex2-15](./Picture/Ex2-15.png)
 
@@ -111,15 +130,20 @@
 
 ![Ex2-11](./Picture/Ex2-11.png)
 
-- 上のメニューの __ファイアウォール規則__ の __規則名, 開始 IP, 終了IP__ にエラで表示された IP アドレスを指定したのち __保存__ をクリックします。
+- 上のメニューの __ファイアウォール規則__ の __規則名, 開始 IP, 終了IP__ にエラーで表示された IP アドレスを指定したのち __保存__ をクリックします。
 
 ![Ex2-12](./Picture/Ex2-12.png)
 
-- 再度接続テストを実施します。
+- 再度接続テストを実施します。 -->
 
 ![Ex2-16](./Picture/Ex2-16.png)
 
-おつかれさまでした。以上で _Exercise.2_ は完了となります。
+- 下記の例のようなSQL文を実行してスキーマを作成します。
+```sql
+    CREATE SCHEMA `wordpress` DEFAULT CHARACTER SET utf8 ;
+```
+
+おつかれさまでした。以上で _Excercise.2_ は完了となります。
 
 [次の演習　Excercise.3 Wordpress を設定する](./Excercise3-SetUpWP.md)
 
@@ -130,6 +154,8 @@
 [最初の MySQL アカウントのセキュリティー設定](https://dev.mysql.com/doc/refman/5.6/ja/default-privileges.html)
 
 [Azure Portal を使用した Azure Database for MySQL サーバーの作成](https://docs.microsoft.com/ja-jp/azure/mysql/quickstart-create-mysql-server-database-using-azure-portal)
+
+[Azure で PHP と MySQL Web アプリを構築する](https://docs.microsoft.com/ja-jp/azure/app-service-web/app-service-web-tutorial-php-mysql)
 
 
 __本情報の内容（添付文書、リンク先などを含む）は、作成日時点でのものであり、予告なく変更される場合があります。__

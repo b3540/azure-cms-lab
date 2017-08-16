@@ -12,14 +12,8 @@
 ## 前提条件
 この演習を完了するためには、以下のソフトウェア（もしくは互換機能のあるツール）が必要です。
 
-### Azure Database for MySQL を使用する場合
 * [最新の MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
 * [WordPress](https://wordpress.org/download/)
-
-### Azure Database for PostgreSQL を使用する場合
-* [最新の pgAdmin](https://www.pgadmin.org/download/)
-
-### 共通で必要なもの
 * Microsoft Azure にインスタンス作成可能なサブスクリプション及びユーザーアカウント。
 * Web ブラウザ
 * [Cyberduck](https://cyberduck.io/)
@@ -33,9 +27,12 @@
 * [WordPress 4.8.1](https://wordpress.org/download/)
 * [Cyberduck Version 6.1.0 25371](https://cyberduck.io/)
 
-## MySQL 編
+## ハンズオンマニュアル
 [Excercise.1 Azure App Service を作成する](./Excercise1-CreateServices.md)
 [Excercise.2 DB を作成する](./Excercise2-CreateDB.md)
+[Excercise.3 Wordpress を設定する](./Excercise3-SetUpWP.md)
+
+
 
 
 __Microsoft Azure が利用可能で、インスタンス作成できることが前提となります。__

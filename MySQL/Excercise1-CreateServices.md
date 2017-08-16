@@ -3,13 +3,15 @@
 ## 概要
 この演習では、Azure ポータルで必要なサービス [Azure Web App](https://azure.microsoft.com/ja-jp/services/app-service/web/) を作成します。
 
+[ラボ概要](../README.md)
+
 ## 前提条件
 この演習を完了するためには、以下のソフトウェア（もしくは互換機能のあるツール）が必要です。
 
-### Azure Database for MySQL を使用する場合
-* [最新の MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
+## 前提条件
+この演習を完了するためには、以下のソフトウェア（もしくは互換機能のあるツール）が必要です。
 
-### 共通で必要なもの
+* [最新の MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
 * [WordPress](https://wordpress.org/download/)
 * Microsoft Azure にインスタンス作成可能なサブスクリプション及びユーザーアカウント。
 * Web ブラウザ
@@ -57,7 +59,7 @@
 
 ![Ex1-5](./Picture/Ex1-5.png)
 
-おつかれさまでした。以上で _Exercise.1_ は完了となります。
+おつかれさまでした。以上で _Excercise.1_ は完了となります。
 
 [次の演習　Excercise.2 DB を作成する](./Excercise2-CreateDB.md)
 
