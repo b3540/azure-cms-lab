@@ -111,6 +111,8 @@ define('NONCE_SALT',       'Un1QuePhr@se8');
 
 おつかれさまでした。以上で _Excercise.3_ は完了となります。
 
+[次の演習　Excercise.4 Azure CDN を設定する](./Excercise4-CDNSetUp.md)
+
 ## 参考資料 
 
 [Azure App Service のデプロイ資格情報の構成](https://docs.microsoft.com/ja-jp/azure/app-service-web/app-service-deployment-credentials)
