@@ -27,13 +27,13 @@
 * [Cyberduck Version 6.1.0 25371](https://cyberduck.io/)
 
 ## ハンズオンマニュアル
-[Excercise.1 Azure App Service を作成する](./Excercise1-CreateServices.md)
+[Excercise.1 Azure App Service を作成する](./MySQL/Excercise1-CreateServices.md)
 
-[Excercise.2 DB を作成する](./Excercise2-CreateDB.md)
+[Excercise.2 DB を作成する](./MySQL/Excercise2-CreateDB.md)
 
-[Excercise.3 Wordpress を設定する](./Excercise3-SetUpWP.md)
+[Excercise.3 Wordpress を設定する](./MySQL/Excercise3-SetUpWP.md)
 
-[Excercise.4 Azure CDN を設定する](./Excercise4-CDNSetUp.md)
+[Excercise.4 Azure CDN を設定する](./MySQL/Excercise4-CDNSetUp.md)
 
 __Microsoft Azure が利用可能で、インスタンス作成できることが前提となります。__
 
